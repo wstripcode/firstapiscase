@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Troca de experiências de viagens</title>
+	<!-- Adicione aqui os links para os arquivos CSS -->
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Início</a></li>
+				<li><a href="#">Experiências</a></li>
+				<li><a href="#">Destinos</a></li>
+				<li><a href="#">Contato</a></li>
+			</ul>
+		</nav>
+		<h1>Troca de experiências de viagens</h1>
+		<p>Compartilhe suas experiências de viagem e descubra novos lugares para visitar.</p>
+	</header>
+	
+	<main>
+		<section>
+			<h2>Experiências recentes</h2>
+			<!-- Adicione aqui os cards com as últimas experiências postadas -->
+		</section>
+
+		<section>
+			<h2>Destinos populares</h2>
+			<!-- Adicione aqui os cards com os destinos mais populares entre os usuários -->
+		</section>
+
+		<section>
+			<h2>Poste sua experiência</h2>
+			<form>
+				<label for="nome">Nome:</label>
+				<input type="text" id="nome" name="nome" required>
+
+				<label for="email">E-mail:</label>
+				<input type="email" id="email" name="email" required>
+
+				<label for="destino">Destino:</label>
+				<input type="text" id="destino" name="destino" required>
+
+				<label for="experiencia">Experiência:</label>
+				<textarea id="experiencia" name="experiencia" required></textarea>
+
+				<button type="submit">Enviar</button>
+			</form>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2023 Troca de experiências de viagens. Todos os direitos reservados.</p>
+	</footer>
+	<!-- Adicione aqui os links para os arquivos JavaScript -->
+</body>
+</html>
